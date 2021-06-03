@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
-
 </head>
 <body>
-
+<header>
+    <!-- nav bar-->
+    <!-- header image-->
+    <h1>Contact</h1>
+</header>
+<main>
+    <h2>Ready to join the We>Code team?</h2>
+    <p>If you've made it to this page, it means we at least sparked some interest to join the We>Code team. Don't need any further convincing? Just go ahead and jump to the form below to leave us your details and we'll be in touch as soon as possible.</p>
+    <p>Are you hesitant to take the plunge and need some more convincing? Fear not, brave freelancer-to-be. Signing up below doesn't imply any commitment whatsoever. We will, however, welcome you to have a chat, answer all your questions and take away your doubts.</p>
+    <h2>Let's freelance at We>Code!</h2>
+    <form action="https://miro.medium.com/max/600/1*Ez3hHc2qOOQhUZd5NLZaYA.png" method="POST">
+        <label>Your first name:
+            <input type="text" name="fname" required placeholder="My first name is...">
+        </label>
+        <label>Your last name:
+            <input type="text" name="lname" required placeholder="My last name is...">
+        </label>
+        <label>Your email:
+            <input type="email" name="_replyto" required placeholder="My email is...">
+        </label>
+        <label>Your phone:
+            <input type="tel" name="phone" required placeholder="My phone number is...">
+        </label>
+        <label>Your specialty:
+            <select id="specialty" name="speciality">
+                <option value="option 1">Volvo</option>
+                <option value="option 2">Saab</option>
+                <option value="option 3">Fiat</option>
+                <option value="other">Audi</option>
+            </select>
+        </label>
+        <label>Your portfolio:
+            <input type="url" name="url" placeholder="https://this-is-my-portfolio.com" pattern="https://.*" required>
+        </label>
+        <label>Your message:
+            <textarea name="message" placeholder="What I want to say is..."></textarea>
+        </label>
+        <button>Let's freelance at We>Code! >>> </button>
+    </form>
+</main>
+<footer>
+</footer>
 </body>
 </html>
