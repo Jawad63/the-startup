@@ -1,13 +1,12 @@
-body{
-   background-color: lightgray;
-}
-
 .wrapper{
    margin: 2rem;
    width: auto;
    padding: 6rem;
-   background-color: white;
-   border: 2px solid black;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sidenav{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .heading{
@@ -19,7 +18,30 @@ body{
    margin-bottom: 5rem;
 }
 
-/* Here Starts css for About us*/
+
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px;
+}
+
+
+a{
+   color: cadetblue;
+   text-decoration: none;
+   border: cadetblue 1px solid;
+   padding: 10px;
+   margin-top: 1rem;
+}
+
+a:hover{
+   color: black;
+   border: black 1px solid;
+   
+}
+
+/********************************* Here Starts css for About us *********************************/
 
 .container-aboutme{
    height: 100%;
@@ -32,19 +54,36 @@ body{
 }
 
 .about-us-img{
-   border: 2px solid black;
    grid-area: about-us-img;
-   
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
+   margin-bottom: auto;
+   margin-top: auto;
+}
+
+.about-us-img:hover{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px 2px;
+   transform: scale(1.5);
+     filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 
 .about-us-text{
-   padding: 2rem;
-   border: 2px solid black;
+   
+   padding: 3rem;
    grid-area: about-us-text;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
-/* Here Starts css for Services*/
+.about-us-text:hover{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+}
+
+
+
+/********************************* Here Starts css for Services *********************************/
 
 .container-services{
    grid-gap: 6rem;
@@ -57,31 +96,50 @@ body{
 }
 
 .services-img-one{
-   padding: 2rem;
-   border: 2px solid black;
+
    grid-area: services-img-one;
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
 }
 
-.services-text-one{
-   padding: 2rem;
-   border: 2px solid black;
-   grid-area: services-text-one;
+.services-img-one:hover{
+   grid-area: services-img-one;
+   filter: grayscale(0);
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
+.services-text-one{
+   padding: 3rem;
+   grid-area: services-text-one;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+}
+
 
 
 .services-text-two{
-   padding: 2rem;
-   border: 2px solid black;
-   grid-area: services-text-two;
+   padding: 3rem;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
 }
+
 
 .services-img-two{
-   padding: 2rem;
-   border: 2px solid black;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    grid-area: services-img-two;
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
 }
 
-/* Here Starts css for Portfolio*/
+.services-img-two:hover{
+   grid-area: services-img-two;
+   filter: grayscale(0);
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+ /******************************** Here Starts css for Portfolio *********************************/
 
 .container-portfolio{
    grid-gap: 6rem;
@@ -119,7 +177,7 @@ body{
 }
 
 
-/* Here Starts css for Footer*/
+/********************************* Here Starts css for Footer *********************************/
 
 .container-footer{
    grid-gap: 6rem;
