@@ -1,0 +1,77 @@
+.content h1{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.textboxarea{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.textbox{
+    margin: 5px;
+    padding: 5px;
+}
+.textbox2{
+    border: 1px solid #8ECCCC;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+}
+.textbox p{
+    float: right;
+    border: 1px solid #8ECCCC;
+    text-align: right;    
+    padding: 10px;
+}
+.container a{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    background-color: #3A4042;
+    border: 1px solid #8ECCCC;
+    color: #8ECCCC;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+.container a:hover{
+    background-color: #116466;
+}
+@media only screen and (max-width:1024px){
+    .blank{
+        overflow-x: hidden;
+    }
+    .textboxarea{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    #usp1{
+        grid-row: 1;
+    }
+    #usp1text{
+        grid-row: 2;
+    }
+    #usp2{
+        grid-row: 3;
+    }
+    #usp2text{
+        grid-row: 4;
+    }
+    #usp3{
+        grid-row: 5;
+    }
+    #usp3text{
+        grid-row: 6;
+    }
+    #join{
+        grid-row: 7;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

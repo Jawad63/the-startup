@@ -12,20 +12,49 @@
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">Product</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="product.html">Product</a>
+    <a href="about us.html">About</a>
+    <a href="contact.html">Contact</a>
   </div>
   <div class="container">
     <div class="whitespace">
       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
-    <h1>How Does It Work</h1>
+    <div class="content">
+      <h1>How Does It Work</h1>
+      <img src="Images/cloud.png" alt="">
+      <div class="textboxarea">
+        <div id="usp1" class="textbox">
+          <p>USP1</p>
+        </div>
+        <div class="blank"></div>
+        <div id="usp2" class="textbox">
+          <p>USP2</p>
+        </div>
+        <div id="usp1text" class="textbox2">
+          <p>a</p>
+        </div>
+        <div class="blank"></div>
+        <div id="usp2text" class="textbox2">
+          <p>a</p>       
+        </div>
+        <div class="blank"></div>
+        <div id="usp3" class="textbox">
+          <p>USP3</p>
+        </div>
+        <div class="blank"></div>
+        <a id="join" href="contact.html">Join</a>
+        <div id="usp3text" class="textbox2">
+          <p>a</p>         
+        </div>
+        
+      </div>
+      <footer></footer>
+    </div>
     <div class="whitespace"></div>
   </div>
-      
-  <img src="" alt="">
+
   <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "200px";
