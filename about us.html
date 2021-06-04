@@ -9,16 +9,21 @@
 </head>
 <body>
 <header>
-    <!-- nav bar-->
-    <!-- header image-->
     <h1>About We>Code</h1>
 </header>
 <main>
-
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <h2>Our vision</h2>
-    <p>You aspire the freedom of the freelancer life - wink wink digital nomad wannabe -, but are you not too convinced about taking on the responsibilty of proving your own income. You know, all by yourself? We admit, it can be a huge burden.</p>
-    <p>Yeah, we get it. And we have your back! Insert freelance platform here. Allow yourself to build a client base without too much effort and, ultimately, to form durable professional relationships. While you're taking that trip to Thailand, Bali, Hawaii, any other dream destination you had in mind, or just your own backyard. Your choice.</p>
-    <p>>However - and we say this in all honesty and seriousness, We>Code is not your regular freelancer platform. Why? We're not sure yet either, but at least this web page is getting filled with some text.</p>
+    <p>You aspire the freedom of the freelancer life - wink, wink, digital nomad wannabe - but are you not too convinced about taking on the responsibilty of proving your own income. You know, all by yourself? </p>
+    <p>We admit, it can be a huge burden. And we have your back! Insert freelance platform here. Allow yourself to build a client base without too much effort and, ultimately, to form durable professional relationships. While you're taking that trip to Thailand, Bali, Hawaii, any other dream destination you had in mind, or just your own backyard. Your choice.</p>
+    <p>However - and we say this in all honesty and seriousness - We>Code is not your regular freelancer platform. Why? We're not sure yet either, but at least this web page is getting filled with some text.</p>
     <h2>Our team</h2>
     <div class="card">
         <img src="#" alt="Jawad">
@@ -42,6 +47,15 @@
         </div>
     </div>
     <button>I want to freelance at We>Code! >>></button>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </main>
 <footer>
 </footer>
