@@ -1,0 +1,148 @@
+body{
+   background-color: lightgray;
+}
+
+.wrapper{
+   margin: 2rem;
+   width: auto;
+   padding: 6rem;
+   background-color: white;
+   border: 2px solid black;
+}
+
+.heading{
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 700;
+   font-size: 35px;
+   margin-bottom: 5rem;
+}
+
+/* Here Starts css for About us*/
+
+.container-aboutme{
+   height: 100%;
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "about-us-img about-us-text"
+   ;
+}
+
+.about-us-img{
+   border: 2px solid black;
+   grid-area: about-us-img;
+   
+}
+
+
+.about-us-text{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: about-us-text;
+}
+
+/* Here Starts css for Services*/
+
+.container-services{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "services-img-one services-text-one"
+   "services-text-two services-img-two"
+   ;
+}
+
+.services-img-one{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: services-img-one;
+}
+
+.services-text-one{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: services-text-one;
+}
+
+
+.services-text-two{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: services-text-two;
+}
+
+.services-img-two{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: services-img-two;
+}
+
+/* Here Starts css for Portfolio*/
+
+.container-portfolio{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-template-areas:
+   "port-img-one port-img-two port-img-three"
+   "port-text port-text port-text" 
+   ;
+}
+
+.port-img-one{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-one;
+}
+
+.port-img-two{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-two;
+}
+
+.port-img-three{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-three;
+}
+
+.port-text{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-text;
+}
+
+
+/* Here Starts css for Footer*/
+
+.container-footer{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-areas:
+   "footer-text-1 footer-text-2"
+   ;
+}
+
+.footer-text-1{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: footer-text-1;
+}
+
+.footer-text-2{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: footer-text-2;
+}
+
+
+
+
+
