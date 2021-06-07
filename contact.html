@@ -9,63 +9,61 @@
     <title>Contact</title>
 </head>
 <body>
-<main>
-    <div class="container">
-        <div class="whitespace">
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Home</a>
-                <a href="#">Product</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-             </div>
+<div class="container">
+    <div class="whitespace">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Platform</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        </div>
-        <div class="content">
-            <h1>Contact</h1>
-            <div class="text-box-1">
-                <h2>Ready to join the We>Code team?</h2>
-                <p>If you've made it to this page, it means we at least sparked some interest to join the We>Code team. Don't need any further convincing? Just go ahead and jump to the form below to leave us your details and we'll be in touch as soon as possible!</p><br/>
-                <p>Are you hesitant to take the plunge and need some more convincing? Fear not, brave freelancer-to-be. Signing up below doesn't imply any commitment whatsoever. We will, however, welcome you to have a chat, answer all your questions and take away your doubts.</p>
-            </div>
-            <div class="text-box-2">
-                <h2>Let's freelance at We>Code!</h2>
-                <div class="form-box">
-                    <form action="https://miro.medium.com/max/600/1*Ez3hHc2qOOQhUZd5NLZaYA.png" method="POST">
-                        <label>Your first name:
-                            <input type="text" name="fname" required placeholder="My first name is...">
-                        </label>
-                        <label>Your last name:
-                            <input type="text" name="lname" required placeholder="My last name is...">
-                        </label>
-                        <label>Your email:
-                            <input type="email" name="_replyto" required placeholder="My email is...">
-                        </label>
-                        <label>Your phone:
-                            <input type="tel" name="phone" required placeholder="My phone number is...">
-                        </label>
-                        <label>Your message:
-                            <textarea name="message" placeholder="What I want to say is..."></textarea>
-                        </label>
-                        <div class="button">Let's freelance at We>Code! >>></div>
-                    </form>
-                </div>
-            </div>
     </div>
-        <div class="whitespace">
+    <div class="content">
+        <h1>Contact</h1>
+        <div class="text-box-1">
+            <h2>Ready to join the We>Code team?</h2>
+            <p>If you've made it to this page, it means we at least sparked some interest to join the We>Code team. Don't need any further convincing? Just go ahead and jump to the form below to leave us your details and we'll be in touch as soon as possible!</p><br/>
+            <p>Are you hesitant to take the plunge and need some more convincing? Fear not, brave freelancer-to-be. Signing up below doesn't imply any commitment whatsoever. We will, however, welcome you to have a chat, answer all your questions and take away your doubts.</p>
+        </div>
+        <div class="text-box-2">
+            <h2>Let's freelance at We>Code!</h2>
+            <div class="form-box">
+                <form action="https://miro.medium.com/max/600/1*Ez3hHc2qOOQhUZd5NLZaYA.png" method="POST">
+                    <label>Your first name:
+                        <input type="text" name="fname" required placeholder="My first name is...">
+                    </label>
+                    <label>Your last name:
+                        <input type="text" name="lname" required placeholder="My last name is...">
+                    </label>
+                    <label>Your email:
+                        <input type="email" name="_replyto" required placeholder="My email is...">
+                    </label>
+                    <label>Your phone:
+                        <input type="tel" name="phone" required placeholder="My phone number is...">
+                    </label>
+                    <label>Your message:
+                        <textarea name="message" placeholder="What I want to say is..."></textarea>
+                    </label>
+                    <div class="button">Let's freelance at We>Code! >>></div>
+                </form>
+            </div>
         </div>
     </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
-</main>
+    <div class="whitespace">
+        <img src="Images/logo.png" alt="We>Code logo">
+    </div>
+</div>
 <footer>
 </footer>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 </html>

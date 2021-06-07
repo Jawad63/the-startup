@@ -7,10 +7,9 @@
       <change beforePath="$PROJECT_DIR$/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -55,7 +54,7 @@
       <updated>1622815301997</updated>
       <workItem from="1622815305869" duration="831000" />
       <workItem from="1623048664387" duration="13357000" />
-      <workItem from="1623065583198" duration="1325000" />
+      <workItem from="1623065583198" duration="4316000" />
     </task>
     <servers />
   </component>
