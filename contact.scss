@@ -21,21 +21,17 @@ $font: Verdana;
 }
 
 .form-box{
-  border: 1px solid $lightest-color;
   margin: 50px 70px 150px 70px;
   padding: 20px;
   border-radius: 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
   -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
   transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
   -o-transition: transform 0.5s, filter 0.5s ease-in-out;
   transition: transform 0.5s, filter 0.5s ease-in-out;
   transition: transform 0.5s, filter 0.5s ease-in-out, -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
   -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 input[type=text], input[type=email], input[type=tel], textarea {
   width: 100%;
