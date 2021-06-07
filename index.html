@@ -19,14 +19,45 @@
         <a href="#">About</a>
         <a href="#">Contact</a>
         </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        
 
+        <div class="whitespace"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+        <div class="wrapper">
+            <img style="width: 200px; float: right;" src="Images/logo.png" alt="">
+            <div class="slideshow-container">
 
+                <div class="mySlides fade">
+                  <img src="Images/pic 1.jpg" style="width:100%">
+                  <div class="text">The Place To Be</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="Images/pic 2.jpg" style="width:100%">
+                  <div class="text">The Place To Be</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="Images/pic 3.jpg" style="width:100%">
+                  <div class="text">The Place To Be</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div class="dotarea">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
 
 
         <div class="wrapper">
-            <div class="whitespace">
-            <div class="heading">About-Us</div>
+            
+            <div class="heading"><h2>About-Us</h2></div>
             <div class="container-aboutme">
 
                 <div class="about-us-img">
@@ -44,11 +75,11 @@
                 </div>
 
             </div>
-        </div>
+        
         </div>    
  
         <div class="wrapper">
-            <div class="heading">Services</div>
+            <div class="heading"><h2>Services</h2></div>
             <div class="container-services">
 
                 <div class="services-img-one">
@@ -78,7 +109,7 @@
                 </div>
 
                 <div class="services-img-two">
-                    <img src="./Images/pic 1.jpg" alt="" height="350" width="550">
+                    <img src="./Images/pic 1.jpg" alt="" height="380" width="550">
                 </div>
 
             </div>
@@ -86,7 +117,7 @@
 
 
         <div class="wrapper">
-            <div class="heading">Portfolio</div>
+            <div class="heading"><h2>Portfolio</h2></div>
             <div class="container-portfolio">
 
                 <div class="port-img-one">
@@ -121,8 +152,9 @@
 
 
         <div class="wrapper">
-            <div class="heading">footer</div>
+            <div class="heading"><h2>footer</h2></div>
                 <div class="container-footer">
+                    
 
                     <div class="col-1">
 
@@ -180,5 +212,33 @@
           document.getElementById("mySidenav").style.width = "0";
         }
         </script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
 </body>
 </html>

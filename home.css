@@ -1,3 +1,4 @@
+
 .wrapper{
    margin: 2rem;
    width: auto;
@@ -22,6 +23,7 @@
 img{
    display: block;
    padding: 0;
+
 }
 
 
@@ -55,8 +57,8 @@ a:hover{
    grid-area: about-us-img;
    transition: transform .5s, filter 1.5s ease-in-out;
    filter: grayscale(100%);
-   margin-bottom: auto;
-   margin-top: auto;
+   margin: auto;
+   padding: auto;
 }
 
 .about-us-img:hover{
@@ -94,6 +96,8 @@ a:hover{
    grid-area: services-img-one;
    transition: transform .5s, filter 1.5s ease-in-out;
    filter: grayscale(100%);
+   margin: auto;
+   padding: auto;
 }
 
 .services-img-one:hover{
@@ -119,6 +123,8 @@ a:hover{
 
 
 .services-img-two{
+   margin: auto;
+   padding: auto;
    box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -10px;
    grid-area: services-img-two;
    transition: transform .5s, filter 1.5s ease-in-out;
@@ -213,10 +219,123 @@ a:hover{
    grid-gap: 1rem;
    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+/********************************* Here Starts css for carousel*********************************/
+.mySlides {
+   display: none
+ }
+ .slideshow-container img {
+   vertical-align: middle;
+   opacity: 0.8;
+ }
+ 
+ .slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+   box-sizing: border-box;
+ }
+ 
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: #8ECCCC;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   background-color: rgba(0,0,0,0.8);
+ }
+ 
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .text {
+   color: #8ECCCC;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 97.6%;
+   text-align: center; 
+   background-color: black;
+   opacity: 0.5;
+ 
+ }
+ 
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+   grid-template-columns: none;
+ }
+
+ .dotarea{
+    margin-left: 48%;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #8ECCCC;
+ }
+ 
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+
+
+/********************************* Making it Responsive *********************************/
+
+
+@media screen and (max-width: 1201px ) {
+   .wrapper{
+      width: 100vh;
+   }
+   .container-aboutme{
+      display: grid;
+      width: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "about-us-img"
+      "about-us-text" ;
+   }
+
+   .about-us-img{
+      grid-area: about-us-img;
+   }
+
+   .about-us-text{
+      grid-area: about-us-text;
+   }
 
 
 
 
+}
 
 
 
