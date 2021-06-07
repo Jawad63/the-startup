@@ -1,6 +1,8 @@
 .container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 200px auto 200px;
+  -ms-grid-columns: 200px auto 200px;
+      grid-template-columns: 200px auto 200px;
 }
 
 .content {
@@ -16,9 +18,14 @@
   margin: 50px 70px 150px 70px;
   padding: 20px;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
   transition: transform 0.5s, filter 0.5s ease-in-out;
-  transform: scale(1.1);
+  transition: transform 0.5s, filter 0.5s ease-in-out, -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 input[type=text], input[type=email], input[type=tel], textarea {
@@ -27,13 +34,39 @@ input[type=text], input[type=email], input[type=tel], textarea {
   margin: 5px 0 25px 0;
   background-color: #3A4042;
   color: #8ECCCC;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 2px solid #8ECCCC;
   border-radius: 4px;
   font-family: Verdana;
   font-size: 14px;
   outline: none;
-  transition: width 0.4s ease-in-out;
+  -webkit-transition: width  0.4s ease-in-out;
+  transition: width  0.4s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: italic;
+  color: #8ECCCC;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: italic;
+  color: #8ECCCC;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: italic;
+  color: #8ECCCC;
+  opacity: 0.5;
 }
 
 ::placeholder {
@@ -72,7 +105,8 @@ label {
   text-align: center;
   font-weight: bold;
   padding: 15px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   width: 50%;
   margin-left: 25%;
   margin-top: 50px;
@@ -87,4 +121,3 @@ footer {
 /* add media queries */
 /* add accesibility on all browsers */
 
-/*# sourceMappingURL=contact.css.map */
