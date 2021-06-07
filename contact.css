@@ -79,7 +79,12 @@ label {
   margin-bottom: 50px;
 }
 
+footer {
+  align-content: center;
+}
+
 /* add footer*/
 /* add media queries */
+/* add accesibility on all browsers */
 
 /*# sourceMappingURL=contact.css.map */
