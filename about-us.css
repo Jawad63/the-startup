@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sidenav {
   height: 100%;
   width: 0;
@@ -5,7 +6,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #3A4042;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -42,13 +43,36 @@ body {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 30px;
+  color: #116466;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 h2 {
+  font-size: 25px;
+  color: #116466;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h4 {
   font-size: 18px;
-  color: green;
-  padding: 15px;
+  color: #116466;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+h5 {
+  font-size: 18px;
+  color: #8ECCCC;
+  padding: 5px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 2;
+  text-align: justify;
 }
 
 .container {
@@ -63,34 +87,27 @@ h2 {
     grid-template-columns: auto;
   }
 }
+.text-box-1, .text-box-2 {
+  padding-bottom: 50px;
+}
+
 .content {
-  padding: 50px;
+  padding: 10px 0 50px 0;
 }
 
-.textbox-1, textbox-2 {
-  border-bottom: 1px solid #D9B08C;
-}
-
-.button {
-  color: #8ECCCC;
-  background-color: #3A4042;
-  border: 2px solid #8ECCCC;
-  border-radius: 4px;
+/*Alternatively, here’s a Sass @mixin to help with some of the prefixing, which also gives you an idea of what kind of things need to be done */
+.cardbox {
+  display: flex;
+  flex-flow: nowrap;
   text-align: center;
-  font-weight: bold;
-}
-
-.button:hover {
-  color: #8ECCCC;
-  background-color: #116466;
-  border: #116466 2px solid;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: bold;
+  align-content: center;
+  align-items: baseline;
 }
 
 .card {
-  display: grid;
+  padding: 4%;
+  flex: 1 30%;
+  align-items: center;
 }
 
 img {
@@ -102,11 +119,52 @@ img {
   justify-self: center;
   text-align: center;
   border: #116466 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.card-text {
-  height: 50px;
+img:hover {
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  justify-self: center;
   text-align: center;
+  border: #116466 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  transform: scale(1.1);
 }
+
+.button {
+  color: #8ECCCC;
+  background-color: #3A4042;
+  border: 2px solid #8ECCCC;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  color: #8ECCCC;
+  background-color: #116466;
+  border: #116466 2px solid;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  transform: scale(1.1);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* add footer*/
 
 /*# sourceMappingURL=about-us.css.map */
