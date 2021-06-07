@@ -22,6 +22,7 @@
 img{
    display: block;
    padding: 0;
+
 }
 
 
@@ -55,8 +56,8 @@ a:hover{
    grid-area: about-us-img;
    transition: transform .5s, filter 1.5s ease-in-out;
    filter: grayscale(100%);
-   margin-bottom: auto;
-   margin-top: auto;
+   margin: auto;
+   padding: auto;
 }
 
 .about-us-img:hover{
@@ -94,6 +95,8 @@ a:hover{
    grid-area: services-img-one;
    transition: transform .5s, filter 1.5s ease-in-out;
    filter: grayscale(100%);
+   margin: auto;
+   padding: auto;
 }
 
 .services-img-one:hover{
@@ -119,6 +122,8 @@ a:hover{
 
 
 .services-img-two{
+   margin: auto;
+   padding: auto;
    box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -10px;
    grid-area: services-img-two;
    transition: transform .5s, filter 1.5s ease-in-out;
@@ -216,7 +221,35 @@ a:hover{
 
 
 
+/********************************* Making it Responsive *********************************/
 
+
+@media screen and (max-width: 1201px ) {
+   .wrapper{
+      width: 100vh;
+   }
+   .container-aboutme{
+      display: grid;
+      width: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "about-us-img"
+      "about-us-text" ;
+   }
+
+   .about-us-img{
+      grid-area: about-us-img;
+   }
+
+   .about-us-text{
+      grid-area: about-us-text;
+   }
+
+
+
+
+}
 
 
 
