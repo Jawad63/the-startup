@@ -1,77 +1,14 @@
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #3A4042;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #8ECCCC;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #116466;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-span {
-  float: left;
-}
-
-body {
-  background-color: #3A4042;
-  font-family: Verdana;
-  color: #8ECCCC;
-}
-
-h1 {
-  font-size: 30px;
-  color: #116466;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h2 {
-  font-size: 25px;
-  color: #116466;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-p {
-  font-size: 14px;
-  line-height: 2;
-  text-align: justify;
-}
-
 .container {
   display: grid;
   grid-template-columns: 200px auto 200px;
 }
 
-.text-box-1, .text-box-2 {
-  padding-bottom: 50px;
-}
-
 .content {
   padding: 10px 0 50px 0;
+}
+
+.text-box-1, .text-box-2 {
+  padding-bottom: 50px;
 }
 
 .form-box {
@@ -84,7 +21,7 @@ p {
   transform: scale(1.1);
 }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=tel], textarea {
   width: 100%;
   padding: 5px 5px;
   margin: 5px 0 25px 0;
@@ -97,47 +34,6 @@ input[type=text] {
   font-size: 14px;
   outline: none;
   transition: width 0.4s ease-in-out;
-}
-
-input[type=email] {
-  width: 100%;
-  padding: 5px 5px;
-  margin: 5px 0 25px 0;
-  background-color: #3A4042;
-  color: #8ECCCC;
-  box-sizing: border-box;
-  border: 2px solid #8ECCCC;
-  border-radius: 4px;
-  font-family: Verdana;
-  font-size: 14px;
-  outline: none;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=tel] {
-  width: 100%;
-  padding: 5px 5px;
-  margin: 5px 0 25px 0;
-  background-color: #3A4042;
-  color: #8ECCCC;
-  box-sizing: border-box;
-  border: 2px solid #8ECCCC;
-  border-radius: 4px;
-  font-family: Verdana;
-  font-size: 14px;
-}
-
-textarea {
-  width: 100%;
-  padding: 5px 5px;
-  margin: 5px 0 25px 0;
-  background-color: #3A4042;
-  color: #8ECCCC;
-  box-sizing: border-box;
-  border: 2px solid #8ECCCC;
-  border-radius: 4px;
-  font-family: Verdana;
-  font-size: 14px;
 }
 
 ::placeholder {
@@ -184,7 +80,6 @@ label {
 }
 
 /* add footer*/
-/* add default css/nav shizzle */
 /* add media queries */
 
 /*# sourceMappingURL=contact.css.map */

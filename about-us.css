@@ -1,74 +1,3 @@
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #3A4042;
-  overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #8ECCCC;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #116466;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-span {
-  float: left;
-}
-
-body {
-  background-color: #3A4042;
-  font-family: Verdana;
-  color: #8ECCCC;
-}
-
-h1 {
-  font-size: 30px;
-  color: #116466;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h2 {
-  font-size: 25px;
-  color: #116466;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h4 {
-  font-size: 18px;
-  color: #116466;
-  padding-top: 50px;
-  padding-bottom: 15px;
-}
-
-h5 {
-  font-size: 18px;
-  color: #8ECCCC;
-  padding: 5px;
-}
-
 p {
   font-size: 14px;
   line-height: 2;
@@ -76,24 +5,8 @@ p {
 }
 
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px auto 200px;
-      grid-template-columns: 200px auto 200px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-  }
-}
-.text-box-1, .text-box-2 {
-  padding-bottom: 50px;
+  grid-template-columns: 200px auto 200px;
 }
 
 .content {
@@ -120,8 +33,7 @@ img {
   max-width: 150px;
   height: auto;
   width: auto;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   text-align: center;
   border: #116466 2px solid;
   box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -169,3 +81,7 @@ img:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+/* add footer*/
+
+/*# sourceMappingURL=about-us.css.map */

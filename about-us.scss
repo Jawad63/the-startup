@@ -3,77 +3,7 @@ $green:#116466;
 $beige:#D9B08C;
 $skin:#FFCB9A;
 $lightest-color: #8ECCCC;
-$font: Verdana;
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: $background-color;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: $lightest-color;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: $green;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-span{
-  float: left;
-}
-
-body{
-  background-color: $background-color;
-  font-family: $font;
-  color: $lightest-color;
-}
-
-h1{
-  font-size: 30px;
-  color: $green;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h2{
-  font-size: 25px;
-  color: $green;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h4{
-  font-size: 18px;
-  color: $green;
-  padding-top: 50px;
-  padding-bottom: 15px;
-}
-
-h5 {
-  font-size: 18px;
-  color: $lightest-color;
-  padding: 5px;
-}
+$font: Verdana, Geneva, sans-serif;
 
 p{
   font-size: 14px;
@@ -86,12 +16,9 @@ p{
   grid-template-columns: 200px auto 200px;
 }
 
-
-
-.content {
+.content{
   padding: 10px 0 50px 0;
 }
-
 
 .cardbox{
   display: flex;
@@ -105,7 +32,6 @@ p{
   padding:4%;
   flex: 1 30%;
   align-items: center;
-
 }
 
 img{
@@ -132,10 +58,9 @@ img:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: transform 0.5s, filter 0.5s ease-in-out;
   transform: scale(1.1);
-
 }
 
-.button {
+.button{
   color: $lightest-color;
   background-color: $background-color;
   border: 2px solid $lightest-color;
@@ -149,7 +74,7 @@ img:hover{
   margin-bottom: 50px;
 }
 
-.button:hover {
+.button:hover{
   color: $lightest-color;
   background-color: $green;
   border: $green 2px solid ;
