@@ -21,13 +21,11 @@
 
 img{
    display: block;
-   margin-left: auto;
-   margin-right: auto;
    padding: 0;
 }
 
 
-a{
+.link a{
    color: cadetblue;
    text-decoration: none;
    border: cadetblue 1px solid;
@@ -62,7 +60,7 @@ a:hover{
 }
 
 .about-us-img:hover{
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px 2px;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px 2px;
    transform: scale(1.5);
      filter: grayscale(0);
   transform: scale(1.1);
@@ -75,10 +73,6 @@ a:hover{
    grid-area: about-us-text;
    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-}
-
-.about-us-text:hover{
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
 }
 
 
@@ -113,19 +107,19 @@ a:hover{
 .services-text-one{
    padding: 3rem;
    grid-area: services-text-one;
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
 
 
 .services-text-two{
    padding: 3rem;
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
 
 .services-img-two{
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -10px;
    grid-area: services-img-two;
    transition: transform .5s, filter 1.5s ease-in-out;
    filter: grayscale(100%);
@@ -142,7 +136,7 @@ a:hover{
  /******************************** Here Starts css for Portfolio *********************************/
 
 .container-portfolio{
-   grid-gap: 6rem;
+   grid-gap: 2rem;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: 1fr;
@@ -153,52 +147,80 @@ a:hover{
 }
 
 .port-img-one{
-   padding: 2rem;
-   border: 2px solid black;
    grid-area: port-img-one;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
 .port-img-two{
-   padding: 2rem;
-   border: 2px solid black;
    grid-area: port-img-two;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
 .port-img-three{
-   padding: 2rem;
-   border: 2px solid black;
    grid-area: port-img-three;
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
+
 }
 
 .port-text{
    padding: 2rem;
-   border: 2px solid black;
    grid-area: port-text;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 
 /********************************* Here Starts css for Footer *********************************/
 
 .container-footer{
-   grid-gap: 6rem;
+   grid-gap: 1rem;
    display: grid;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 2fr 1fr 1fr 1fr;
    grid-template-areas:
-   "footer-text-1 footer-text-2"
-   ;
+   "col-1 col-2 col-3 col-4";
+   box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
-.footer-text-1{
+.col-1{
    padding: 2rem;
-   border: 2px solid black;
-   grid-area: footer-text-1;
+   text-align: left;
+   grid-area: col-1 ;
+   
 }
 
-.footer-text-2{
+.col-2{
    padding: 2rem;
-   border: 2px solid black;
-   grid-area: footer-text-2;
+   grid-area: col-2 ;
 }
+
+.links a{
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+}
+
+.links:hover{
+   text-decoration: none;
+}
+
+.col-3{
+   padding: 2rem;
+   grid-area: col-3 ;
+}
+
+.icons {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
 
 
 
