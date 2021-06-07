@@ -5,8 +5,10 @@ p {
 }
 
 .container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 200px auto 200px;
+  -ms-grid-columns: 200px auto 200px;
+      grid-template-columns: 200px auto 200px;
 }
 
 .content {
@@ -14,17 +16,27 @@ p {
 }
 
 .cardbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: nowrap;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
   text-align: center;
-  align-content: center;
-  align-items: baseline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .card {
   padding: 4%;
-  flex: 1 30%;
-  align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 30%;
+          flex: 1 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 img {
@@ -33,10 +45,12 @@ img {
   max-width: 150px;
   height: auto;
   width: auto;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
   text-align: center;
   border: #116466 2px solid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 img:hover {
@@ -45,12 +59,18 @@ img:hover {
   max-width: 150px;
   height: auto;
   width: auto;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
   text-align: center;
   border: #116466 2px solid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
   transition: transform 0.5s, filter 0.5s ease-in-out;
-  transform: scale(1.1);
+  transition: transform 0.5s, filter 0.5s ease-in-out, -webkit-transform 0.5s, -webkit-filter 0.5s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .button {
@@ -75,7 +95,8 @@ img:hover {
   text-align: center;
   font-weight: bold;
   padding: 15px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   width: 50%;
   margin-left: 25%;
   margin-top: 50px;
@@ -83,5 +104,4 @@ img:hover {
 }
 
 /* add footer*/
-
 /*# sourceMappingURL=about-us.css.map */
