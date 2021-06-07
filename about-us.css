@@ -12,7 +12,11 @@ p {
 }
 
 .content {
-  padding: 10px 0 50px 0;
+  padding: 10px 0 100px 0;
+}
+
+.text-box-2 {
+  align-items: center;
 }
 
 .cardbox {
@@ -103,5 +107,11 @@ img:hover {
   margin-bottom: 50px;
 }
 
+footer {
+  align-content: center;
+}
+
 /* add footer*/
-/*# sourceMappingURL=about-us.css.map */
+/* add media queries */
+/* add accesibility on all browsers */
+

@@ -113,6 +113,11 @@ label {
   margin-bottom: 50px;
 }
 
+footer {
+  align-content: center;
+}
+
 /* add footer*/
 /* add media queries */
-/*# sourceMappingURL=contact.css.map */
+/* add accesibility on all browsers */
+
