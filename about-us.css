@@ -1,0 +1,112 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: green;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #8ECCCC;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #116466;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span {
+  float: left;
+}
+
+body {
+  background-color: #3A4042;
+  font-family: Verdana;
+  color: #8ECCCC;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 18px;
+  color: green;
+  padding: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+  }
+}
+.content {
+  padding: 50px;
+}
+
+.textbox-1, textbox-2 {
+  border-bottom: 1px solid #D9B08C;
+}
+
+.button {
+  color: #8ECCCC;
+  background-color: #3A4042;
+  border: 2px solid #8ECCCC;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #8ECCCC;
+  background-color: #116466;
+  border: #116466 2px solid;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  display: grid;
+}
+
+img {
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  justify-self: center;
+  text-align: center;
+  border: #116466 2px solid;
+}
+
+.card-text {
+  height: 50px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=about-us.css.map */
