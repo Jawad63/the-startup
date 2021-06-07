@@ -53,6 +53,7 @@ img{
 }
 span{
     position: fixed;
+    background-color: #3A4042;
 }
 .whitespace img{
     width: 200px;
@@ -88,5 +89,25 @@ span{
         grid-row: 7;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .whitespace img{
+        width: 100px;
+        float: right;
+        margin-top: -1530px;
+        margin-right: 10px;
+    }
+    .content h1{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .content h1{
+        font-size: 22px;
+    }
+    .whitespace img{
+        width: 50px;
+        float: right;
+        margin-top: -1320px;
+        margin-right: 10px;
     }
 }

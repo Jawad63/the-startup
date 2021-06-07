@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b04d084-c121-42de-8ceb-49f73a285857" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+    <list default="true" id="7dd06208-a9fe-49d8-9f42-a171ce651e17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,46 +23,39 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1tR6WS1m3p5on25kRUxRDHnYd6o" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/style.scss" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1tUEWHCdLUbSh7YUEcJuVg2tSAl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b04d084-c121-42de-8ceb-49f73a285857" name="Default Changelist" comment="" />
-      <created>1622719586389</created>
+      <changelist id="7dd06208-a9fe-49d8-9f42-a171ce651e17" name="Default Changelist" comment="" />
+      <created>1622815301997</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622719586389</updated>
-      <workItem from="1622719587693" duration="1864000" />
-      <workItem from="1622727929702" duration="307000" />
-      <workItem from="1622729346924" duration="8286000" />
-      <workItem from="1622797342025" duration="3158000" />
-      <workItem from="1622800545470" duration="863000" />
+      <updated>1622815301997</updated>
+      <workItem from="1622815305869" duration="831000" />
+      <workItem from="1623048664387" duration="13357000" />
+      <workItem from="1623065583198" duration="1325000" />
     </task>
     <servers />
   </component>

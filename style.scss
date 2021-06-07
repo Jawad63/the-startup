@@ -3,33 +3,34 @@ $green:#116466;
 $beige:#D9B08C;
 $skin:#FFCB9A;
 $lightest-color: #8ECCCC;
+$font: Verdana, Geneva, sans-serif;
 
-.sidenav {
+.sidenav{
    height: 100%;
    width: 0;
    position: fixed;
    z-index: 1;
    top: 0;
    left: 0;
-   background-color: #2C3531;
+   background-color: $background-color;
    overflow-x: hidden;
    transition: 0.5s;
    padding-top: 60px;
  }
  
-.sidenav a {
-   padding: 8px 8px 8px 32px;
-   text-decoration: none;
-   font-size: 25px;
-   color: #D1E8E2;
-   display: block;
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $lightest-color;
+  display: block;
 }
  
-.sidenav a:hover {
-   color: #116466;
+.sidenav a:hover{
+  color: $green;
 }
  
-.sidenav .closebtn {
+.sidenav .closebtn{
    position: absolute;
    top: 0;
    right: 25px;
@@ -37,61 +38,54 @@ $lightest-color: #8ECCCC;
    margin-left: 50px;
 }
 
-
-
-
-$font: Verdana;
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: $background-color;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: $lightest-color;
-    display: block;
-}
-  
-.sidenav a:hover {
-    color: $green;
-}
-  
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
 span{
     float: left;
+    margin: 10px;
 }
+
 body{
     background-color: $background-color;
     font-family: $font;
     color: $lightest-color;
 }
+
 h1{
-    font-size: 25px;
-}
+  font-size: 30px;
+  color: $green;
+  padding-top: 25px;
+  padding-bottom: 25px;}
+
 h2{
-    font-size: 18px;
+  font-size: 25px;
+  color: $green;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
+h4{
+  font-size: 18px;
+  color: $green;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+h5{
+  font-size: 18px;
+  color: $lightest-color;
+  padding: 5px;
+}
+
+p{
+  font-size: 14px;
+  line-height: 2;
+  text-align: justify;
+}
+
 .container{
     display: grid;
     grid-template-columns: 200px auto 200px;
 }
+
 @media only screen and(max-width:1024px){
     .container{
         display: grid;
