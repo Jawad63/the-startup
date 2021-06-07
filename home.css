@@ -1,0 +1,206 @@
+.wrapper{
+   margin: 2rem;
+   width: auto;
+   padding: 6rem;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sidenav{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.heading{
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 700;
+   font-size: 35px;
+   margin-bottom: 5rem;
+}
+
+
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0;
+}
+
+
+a{
+   color: cadetblue;
+   text-decoration: none;
+   border: cadetblue 1px solid;
+   padding: 10px;
+   margin-top: 1rem;
+}
+
+a:hover{
+   color: black;
+   border: black 1px solid;
+   
+}
+
+/********************************* Here Starts css for About us *********************************/
+
+.container-aboutme{
+   height: 100%;
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "about-us-img about-us-text"
+   ;
+}
+
+.about-us-img{
+   grid-area: about-us-img;
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
+   margin-bottom: auto;
+   margin-top: auto;
+}
+
+.about-us-img:hover{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px 2px;
+   transform: scale(1.5);
+     filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+.about-us-text{
+   
+   padding: 3rem;
+   grid-area: about-us-text;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.about-us-text:hover{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+}
+
+
+
+/********************************* Here Starts css for Services *********************************/
+
+.container-services{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "services-img-one services-text-one"
+   "services-text-two services-img-two"
+   ;
+}
+
+.services-img-one{
+
+   grid-area: services-img-one;
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
+}
+
+.services-img-one:hover{
+   grid-area: services-img-one;
+   filter: grayscale(0);
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.services-text-one{
+   padding: 3rem;
+   grid-area: services-text-one;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+}
+
+
+
+.services-text-two{
+   padding: 3rem;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -5px;
+}
+
+
+.services-img-two{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   grid-area: services-img-two;
+   transition: transform .5s, filter 1.5s ease-in-out;
+   filter: grayscale(100%);
+}
+
+.services-img-two:hover{
+   grid-area: services-img-two;
+   filter: grayscale(0);
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+ /******************************** Here Starts css for Portfolio *********************************/
+
+.container-portfolio{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-template-areas:
+   "port-img-one port-img-two port-img-three"
+   "port-text port-text port-text" 
+   ;
+}
+
+.port-img-one{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-one;
+}
+
+.port-img-two{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-two;
+}
+
+.port-img-three{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-img-three;
+}
+
+.port-text{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: port-text;
+}
+
+
+/********************************* Here Starts css for Footer *********************************/
+
+.container-footer{
+   grid-gap: 6rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-areas:
+   "footer-text-1 footer-text-2"
+   ;
+}
+
+.footer-text-1{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: footer-text-1;
+}
+
+.footer-text-2{
+   padding: 2rem;
+   border: 2px solid black;
+   grid-area: footer-text-2;
+}
+
+
+
+
+
