@@ -128,13 +128,6 @@ footer {
   align-content: center;
 }
 
-.wrapper{
-  margin: 2rem;
-  width: auto;
-  padding: 6rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
 .container-footer{
   margin: auto;
   padding: auto;
@@ -143,6 +136,8 @@ footer {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-areas:
   "col-1 col-2 col-3 col-4";
+  -webkit-box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
+  box-shadow: rgb(17,100,102, 0.8) 0px 20px 30px -5px;
 }
 
 .col-1{
