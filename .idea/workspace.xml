@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd06208-a9fe-49d8-9f42-a171ce651e17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/youtube_profile_image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/about us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +52,8 @@
       <workItem from="1623065583198" duration="5622000" />
       <workItem from="1623071270038" duration="6637000" />
       <workItem from="1623078208278" duration="4000" />
-      <workItem from="1623136046223" duration="4520000" />
+      <workItem from="1623136046223" duration="5031000" />
+      <workItem from="1623141364316" duration="1928000" />
     </task>
     <servers />
   </component>
