@@ -177,7 +177,18 @@ footer {
 
 
 /* Jens adds default media query*/
-.container-footer{
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .whitespace-1, .whitespace{
+    overflow-x: hidden ;
+  }
+
+  .form-box{
+    padding: auto;
+    margin: auto;
+  }
+
+  .container-footer{
   margin: auto;
   padding: auto;
   grid-gap: 1rem;
@@ -200,5 +211,8 @@ footer {
 .col-3{
   grid-area: col-3;
 }
+
+}
+
 
 /*# sourceMappingURL=contact.css.map */
